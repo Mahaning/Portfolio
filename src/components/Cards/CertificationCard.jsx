@@ -167,7 +167,7 @@ const CertificationCard = ({certification,setOpenModal}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            <Button href={certification.c_Link}>View Project</Button>
+            <Button href={certification.c_Link}>View Certifications</Button>
         </Card>
         </NavLink>
     )
